@@ -158,6 +158,7 @@ namespace Quiz
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1173, 974);
             this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // pictureBox4
             // 
@@ -180,6 +181,7 @@ namespace Quiz
             this.RegisterButton.TabIndex = 9;
             this.RegisterButton.Text = "SIGN UP";
             this.RegisterButton.UseVisualStyleBackColor = false;
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // label9
             // 
@@ -228,6 +230,7 @@ namespace Quiz
             this.loginButton.TabIndex = 5;
             this.loginButton.Text = "SIGN IN";
             this.loginButton.UseVisualStyleBackColor = false;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // panel4
             // 
@@ -287,6 +290,7 @@ namespace Quiz
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label6
             // 
